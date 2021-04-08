@@ -1,7 +1,8 @@
 // Devo aggiungere al click sulla freccia destra un evento: 
 // cambiare classe all'elemento successivo al primo e poi di seguito fino all'ultimo
 // L'ultimo click deve riportarmi alla prima immagine
-
+// TEST
+$('.header-container').fadeIn(2000);
 // Creo una variabile per la freccia destra
 
 var rightArrow = $('.right');
@@ -51,3 +52,4 @@ leftArrow.click(function() {
         prevImg.addClass('active');
     } 
 })
+
