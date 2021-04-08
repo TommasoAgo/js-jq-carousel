@@ -1,9 +1,29 @@
 // Devo aggiungere al click sulla freccia destra un evento: 
 // cambiare classe all'elemento successivo al primo e poi di seguito fino all'ultimo
 // L'ultimo click deve riportarmi alla prima immagine
+// TEST 
+var singleImg = $('.img');
+singleImg.mouseenter(function() {
+    singleImg.addClass('greyscale');
+})
+
+singleImg.mouseleave(function() {
+    singleImg.removeClass('greyscale');
+})
+
+
 
 // Creo una variabile per la freccia destra
+
 var rightArrow = $('.right');
+
+rightArrow.mouseenter(function() {
+    rightArrow.addClass('greyarrow');
+})
+
+rightArrow.mouseleave(function() {
+    rightArrow.removeClass('greyarrow');
+})
 
 // Aggiungo l'evento click alla freccia
 rightArrow.click(function() {
@@ -23,6 +43,14 @@ rightArrow.click(function() {
 
 // Faccio lo stesso per la freccia sinistra
 var leftArrow = $('.left');
+
+leftArrow.mouseenter(function() {
+    leftArrow.addClass('greyarrow');
+})
+
+leftArrow.mouseleave(function() {
+    leftArrow.removeClass('greyarrow');
+})
 
 leftArrow.click(function() {
     var activeImg = $('.active');

@@ -5,12 +5,29 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
+/* HEADER */
+.header {
+    width: 70%;
+    margin: auto;
+    height: 60px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+    align-items: center;
+} 
+
 /* CONTAINER */
 .container {
     width: 70%;
     margin: auto;
     height: 80vh;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,6 +38,7 @@
 .arrow {
     font-size: 30px;
     cursor: pointer;
+    color: white;
 }
 
 /* IMG */
@@ -40,5 +58,33 @@
     display: block;
 }
 
+/* TEST */
+.greyscale {
+    filter: grayscale(100%);
+}
+
+.greyarrow {
+    color: lightgrey;
+}
+
+.logo {
+    width: 100px;
+}
+
+.home,
+.gallery,
+.contactus {
+    color: white;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
 
 
