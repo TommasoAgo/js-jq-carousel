@@ -1,17 +1,6 @@
 // Devo aggiungere al click sulla freccia destra un evento: 
 // cambiare classe all'elemento successivo al primo e poi di seguito fino all'ultimo
 // L'ultimo click deve riportarmi alla prima immagine
-// TEST 
-var singleImg = $('.img');
-singleImg.mouseenter(function() {
-    singleImg.addClass('greyscale');
-})
-
-singleImg.mouseleave(function() {
-    singleImg.removeClass('greyscale');
-})
-
-
 
 // Creo una variabile per la freccia destra
 
