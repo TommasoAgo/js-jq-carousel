@@ -1,0 +1,44 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container {
+    width: 70%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ARROW */
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* IMG */
+.image {
+    width: 80%;
+}
+
+.active {
+    display: block;
+}
+
+.container img {
+    width: 100%;
+    display: none;
+}
+.container img.active {
+    display: block;
+}
+
+
+
